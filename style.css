@@ -1,6 +1,38 @@
+/*? 
+54. Tvorba webových stránek (HTML a CSS) - Druhé stránky: nastavení projektu
+*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
+/* Todo: clearfix */ 
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** Navigation */
+
+.logo {
+	width: 225px;
+	position: relative;
+	top: -0px;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid red;
+	margin-left: 25px;
+	text-align: center;
+	transition: all 900ms;
+}
+
+
+
+/**
+po Floatování treba dať clearfix
+html : <div class="clearfix"></div>
+*/

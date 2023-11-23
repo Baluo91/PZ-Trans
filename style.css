@@ -1,18 +1,7 @@
-/*? 
-54. Tvorba webových stránek (HTML a CSS) - Druhé stránky: nastavení projektu
-*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-/* Todo: clearfix */ 
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /** Navigation */
@@ -30,9 +19,14 @@ nav ul li a:hover {
 	transition: all 900ms;
 }
 
+.center-showcase {
+	border-radius: 10px;
+	padding: 10px 0;
+}
 
-
-/**
-po Floatování treba dať clearfix
-html : <div class="clearfix"></div>
-*/
+/* Todo: clearfix */ 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

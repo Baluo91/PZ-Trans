@@ -30,3 +30,73 @@ nav ul li a:hover {
     display: table;
     clear: both;
 }
+
+
+/** Pricelist + FORM */
+
+.box {
+    margin: 0 auto;
+    /* width: 300px; */
+    padding: 40px;
+    text-align: center;
+}
+
+.box h1 {
+    color: #000;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="email"], textarea{
+    border: 2px solid #000;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px 10px;
+    width: 250px ;
+    color: #000;
+    border-radius: 24px;
+    outline: none;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus {
+    width: 300px;
+    border-color: #ffc107;
+    transition: all 0.25s;
+}
+
+.box .submit {
+    background: none;
+    border: 2px solid #000;
+    padding: 14px 40px;
+    width: 250px;
+    border-radius: 24px;
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.box .submit:hover {
+    background: #ffc107;
+}
+
+/* Form result */
+.form-result{
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.success {
+    background-color: #239b28;
+}
+
+.error {
+   background-color: #a01b30; 
+}

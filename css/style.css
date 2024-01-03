@@ -31,6 +31,27 @@ nav ul li a:hover {
     clear: both;
 }
 
+/** Gallery */ 
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one-image img {
+    width: 600px;
+    height: 400px;
+    padding: 0 20px 22px;
+    transition: all 0.5s;
+}
+
+.one-image img:hover {
+    transform: scale(1.1);
+    /* transition: all 0.5s; */ /*? funguje to rovnako aj bez tohto riadku */
+}
+
 
 /** Pricelist + FORM */
 

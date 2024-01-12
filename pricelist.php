@@ -23,7 +23,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg fs-3 fw-semibold py-4" style="background-color: rgba(255, 255, 255, 0.9);" data-bs-theme="light">
         <div class="container">
-            <a href="/index.html" class="navbar-brand">
+            <a href="/index.php" class="navbar-brand">
                 <img class="logo" src="/images/logo_web_pz.jpg" alt="logo">
             </a>
 
@@ -34,13 +34,13 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item px-3">
-                        <a href="/index.html" class="nav-link">Služby</a>
+                        <a href="/index.php" class="nav-link">Služby</a>
                     </li>
                     <li class="nav-item px-3">
                         <a href="/gallery.html" class="nav-link">Galéria</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a href="/pricelist.html" class="nav-link">Cenník</a>
+                        <a href="/pricelist.php" class="nav-link">Cenník</a>
                     </li>
                 </ul>
             </div>
@@ -129,7 +129,7 @@
     <!--Footer-->
     <footer class="bg-dark py-3 mt-0" id="footer">
         <div class="container text-light text-center">
-            <p class="display-5 mb-1"><a href="/index.html" class="text-decoration-none text-white">PZtrans</a></p>
+            <p class="display-5 mb-1"><a href="/index.php" class="text-decoration-none text-white">PZtrans</a></p>
             <p class="fs-3"><a href="tel:+421 951 779 662" class="text-decoration-none text-warning " >+421 951 779 662</a></p>
             <p class="text-white">Každý tovar je pred prepravou poistený do 50 000 EUR.</p>
             <p class="fs-6"><a href="/gdpr.html" class="fw-lighter text-decoration-none text-warning" >Zásady ochrany osobných údajov</a></p>

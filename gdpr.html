@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg fs-3 fw-semibold py-4" style="background-color: rgba(255, 255, 255, 0.9);" data-bs-theme="light">
         <div class="container">
             <a href="/index.php" class="navbar-brand">
-                <img class="logo" src="/images/logo_web_pz.jpg" alt="logo">
+                <img class="logo" src="\Images\logo_web_pz.jpg" alt="logo">
             </a>
 
             <button class="navbar-toggler mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

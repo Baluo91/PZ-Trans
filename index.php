@@ -75,7 +75,7 @@
                 <div class="col-md">
                     <h2 class="text-center display-1"><i class="bi bi-truck"></i></h2>                    
                     <div class="card-body">
-                      <p class="card-text fs-3 text-center px-5">efektívne zvládnutie všetkých aspektov procesu sťahovania.</p>
+                      <p class="card-text fs-3 text-center">efektívne zvládnutie všetkých aspektov procesu sťahovania.</p>
                     </div>
                   </div>
         

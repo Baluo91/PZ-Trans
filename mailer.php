@@ -8,15 +8,15 @@
     
     // Kontroluje data popř. přesměruje na chybovou adresu
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location:https://www.strawhog.eu/pricelist.php?success=-1");
+        header("Location:https://www.pztrans.sk/pricelist.php?success=-1");
         exit;
     }
 
     // Nastavte si email, nakterý chcete, aby se vyplněný formulář odeslal - jakýkoli váš email
-    $recipient = "strawhog91@gmail.com";
+    $recipient = "pztranstrnava@gmail.com";
 
     // Nastavte předmět odeslaného emailu
-    $subject = "Máte nový kontakt od: $name";
+    $subject = "Máte novú správu od: $name";
 
     // Obsah emailu, který se vám odešle
     $email_content = "Meno: $name\n";
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
 
     // Přesměrování na stránku, pokud vše proběhlo v pořádku
-    header("Location:https://www.strawhog.eu/pricelist.php?success=1");
+    header("Location:https://www.pztrans.sk/pricelist.php?success=1");
 
     ?>
